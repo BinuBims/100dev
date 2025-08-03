@@ -1,0 +1,51 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}
+
+.mainGrid{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div{
+  margin:2%;
+  padding:2%
+}
+
+.row{
+  display:flex;
+
+}
+
+.gridSquare:after{
+  content:'';
+  display:block;
+  clear:both;
+
+}
+
+.gridSquare{
+  width: 30px;
+  height:30px;
+  background-color: bisque;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
